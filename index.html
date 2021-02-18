@@ -114,6 +114,8 @@
   visibility: visible;
 }</style>
 <script>
+import React from 'react';
+import ReactDOM from 'react-dom';
 function FadeInSection(props) {
   const [isVisible, setVisible] = React.useState(true);
   const domRef = React.useRef();
